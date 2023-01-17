@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Photo\89156607.jpg" />
+    <None Remove="Photo\Capital.jpeg" />
+    <None Remove="Photo\Kazakhstan.jpg" />
+    <None Remove="Photo\Language.jpeg" />
+    <None Remove="Photo\Money.jpeg" />
+    <None Remove="Photo\pantalgar.jpg" />
+    <None Remove="Photo\population.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ExampleDemoWpf.BLL\ExampleDemoWpf.BLL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Photo\89156607.jpg" />
+    <Resource Include="Photo\Capital.jpeg" />
+    <Resource Include="Photo\Kazakhstan.jpg" />
+    <Resource Include="Photo\Language.jpeg" />
+    <Resource Include="Photo\Money.jpeg" />
+    <Resource Include="Photo\pantalgar.jpg" />
+    <Resource Include="Photo\population.jpeg" />
+  </ItemGroup>
+
+</Project>
