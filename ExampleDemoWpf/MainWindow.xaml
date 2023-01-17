@@ -36,25 +36,22 @@
         <DockPanel Grid.Column="0" Background="Red" Opacity="0.55">
             <Button x:Name="btnSA" 
                     Click="btnSA_Click"
-                    Content="SA"
-                    ></Button>
+                    Content="SA"/>
         </DockPanel>
         <DockPanel Grid.Column="1" Background="Green" Opacity="0.55">
             <Button x:Name="btnNA" 
                     Click="btnNA_Click"
-                    Content="NA"
-                    Height="70"
-                    ></Button>
+                    Content="NA"/>
         </DockPanel>
         <DockPanel Grid.Column="2"  Background="Blue" Opacity="0.55">
             <Button x:Name="btnEU" 
                     Click="btnEU_Click"
-                    Content="EU"></Button>
+                    Content="EU"/>
         </DockPanel>
         <DockPanel Grid.Column="3" Background="Orange" Opacity="0.55">
             <Button x:Name="btnSEA"
                     Click="btnSEA_Click"
-                    Content="SEA" ></Button>
+                    Content="SEA"/>
         </DockPanel>
     </Grid>
 </Window>
