@@ -30,5 +30,11 @@ namespace ExampleDemoWpf
         {
             MessageBox.Show(CountryChange);
         }
+
+        private void ListBoxMouseDown(object sender, MouseButtonEventArgs e)
+        {
+            var listBox = (ListBox)sender;
+            listBox.SelectedItems.Clear();
+        }
     }
 }
